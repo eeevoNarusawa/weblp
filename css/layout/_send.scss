@@ -1,0 +1,37 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  .send__main {
+    text-align: center;
+    padding: 80px 0 120px;
+  }
+    .send__main--ttl {
+      font-size: $ttlFont;
+      color: $mainColor;
+      font-weight: bold;
+    }
+    .send__main--comment {
+      margin-top: 20px;
+    }
+    .send__main--ex {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+}
+@media screen and (min-width: 992px) {
+  .send__main {
+    text-align: center;
+    padding: 80px 0 120px;
+  }
+    .send__main--ttl {
+      font-size: $pcTtlFont;
+      color: $mainColor;
+      font-weight: bold;
+    }
+    .send__main--comment {
+      margin-top: 20px;
+    }
+    .send__main--ex {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+}
